@@ -2,6 +2,7 @@
 Colors for Almi
 Dark purple: #870AA0
 Light purple: #CD9BD7
+Himmelsblå: #AAE6FF
 */
 
 body{
@@ -11,6 +12,7 @@ body{
 header{
     background-color: #870AA0;
 }
+
 a{
     text-decoration: none;
     color: black;
@@ -24,9 +26,17 @@ a:hover{
     background-image: url(assets/image/Hero-img.jpg);
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 90vh;
     position: relative;
 }
+
+.hero-text {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
 
 .bg-color-offers{
     background-color: #CD9BD7;
@@ -36,14 +46,31 @@ a:hover{
     background-color: white;
 }
 
+.btn{
+    background-color: #CD9BD7;
+}
+
 .graphic-offer{
     width: 100%;
 } 
 
 .bg-almi-facts{
-    background-color: #CD9BD7;
+    background-color: #AAE6FF;
 }
 
-footer{
+.footer-menu{
     background-color: #870AA0;
+}
+
+li{
+    list-style: none;
+}
+
+footer i{
+    background-color: black;
+    font-size: 1.4rem;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 10px;
+    color: white;
 }
