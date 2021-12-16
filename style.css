@@ -1,0 +1,49 @@
+/* 
+Colors for Almi
+Dark purple: #870AA0
+Light purple: #CD9BD7
+*/
+
+body{
+    font-family: 'Sofia Pro', sans-serif;
+}
+
+header{
+    background-color: #870AA0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+.hero-img{
+    background-image: url(assets/image/Hero-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    position: relative;
+}
+
+.bg-color-offers{
+    background-color: #CD9BD7;
+}
+
+.bg-color-offer{
+    background-color: white;
+}
+
+.graphic-offer{
+    width: 100%;
+} 
+
+.bg-almi-facts{
+    background-color: #CD9BD7;
+}
+
+footer{
+    background-color: #870AA0;
+}
